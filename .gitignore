@@ -1,0 +1,24 @@
+# Configuracao e cadastro privados: edite as copias locais dos exemplos.
+**/rede_local.h
+**/alunos_local.h
+# Registros de alunos e pacotes locais nunca entram no repositorio.
+*.csv
+*.zip
+# Arquivos gerados por compiladores e testes.
+*.elf
+*.bin
+*.o
+build/
+__pycache__/
+# Credenciais alternativas e arquivos de editor/backup.
+.env
+.env.*
+!.env.example
+**/segredos.h
+**/secrets.h
+*.pem
+*.key
+*.bak
+*.tmp
+*~
+.DS_Store
